@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA | Digital Luxury Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Cursor -->
+    <div class="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+        <span class="cursor-text">View</span>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-logo">
+                <span class="loader-letter" data-letter="A">A</span>
+                <span class="loader-letter" data-letter="U">U</span>
+                <span class="loader-letter" data-letter="R">R</span>
+                <span class="loader-letter" data-letter="A">A</span>
+            </div>
+            <div class="loader-progress">
+                <div class="loader-bar"></div>
+            </div>
+            <span class="loader-percent">0%</span>
+        </div>
+        <div class="loader-bg"></div>
+    </div>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="float-shape shape-1"></div>
+        <div class="float-shape shape-2"></div>
+        <div class="float-shape shape-3"></div>
+        <div class="float-shape shape-4"></div>
+        <div class="float-shape shape-5"></div>
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">AURA</span>
+                <span class="logo-glow"></span>
+            </a>
+
+            <div class="nav-menu">
+                <a href="#" class="nav-link" data-index="01">
+                    <span class="link-text">Works</span>
+                    <span class="link-line"></span>
+                </a>
+                <a href="#" class="nav-link" data-index="02">
+                    <span class="link-text">About</span>
+                    <span class="link-line"></span>
+                </a>
+                <a href="#" class="nav-link" data-index="03">
+                    <span class="link-text">Collection</span>
+                    <span class="link-line"></span>
+                </a>
+                <a href="#" class="nav-link" data-index="04">
+                    <span class="link-text">Contact</span>
+                    <span class="link-line"></span>
+                </a>
+            </div>
+
+            <button class="nav-toggle" aria-label="Menu">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Full Menu -->
+    <div class="full-menu">
+        <div class="menu-backdrop"></div>
+        <div class="menu-container">
+            <div class="menu-content">
+                <nav class="menu-nav">
+                    <a href="#hero" class="menu-link">
+                        <span class="menu-index">01</span>
+                        <span class="menu-title">Home</span>
+                        <span class="menu-arrow">→</span>
+                    </a>
+                    <a href="#about" class="menu-link">
+                        <span class="menu-index">02</span>
+                        <span class="menu-title">About</span>
+                        <span class="menu-arrow">→</span>
+                    </a>
+                    <a href="#showcase" class="menu-link">
+                        <span class="menu-index">03</span>
+                        <span class="menu-title">Showcase</span>
+                        <span class="menu-arrow">→</span>
+                    </a>
+                    <a href="#gallery" class="menu-link">
+                        <span class="menu-index">04</span>
+                        <span class="menu-title">Gallery</span>
+                        <span class="menu-arrow">→</span>
+                    </a>
+                    <a href="#contact" class="menu-link">
+                        <span class="menu-index">05</span>
+                        <span class="menu-title">Contact</span>
+                        <span class="menu-arrow">→</span>
+                    </a>
+                </nav>
+                <div class="menu-info">
+                    <div class="menu-socials">
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Dribbble</a>
+                    </div>
+                    <p class="menu-email">hello@aura.studio</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-media">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-ink-swirling-in-water-134-large.mp4" type="video/mp4">
+            </video>
+            <div class="hero-gradient"></div>
+        </div>
+
+        <div class="hero-circle">
+            <div class="circle-border"></div>
+            <div class="circle-glow"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="eyebrow-line"></span>
+                <span class="eyebrow-text">Digital Experience Studio</span>
+                <span class="eyebrow-year">© 2025</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line">
+                    <span class="char">W</span><span class="char">h</span><span class="char">e</span><span class="char">r</span><span class="char">e</span>
+                    <span class="char space"> </span>
+                    <span class="char">c</span><span class="char">o</span><span class="char">d</span><span class="char">e</span>
+                </span>
+                <span class="title-line">
+                    <span class="char">m</span><span class="char">e</span><span class="char">e</span><span class="char">t</span><span class="char">s</span>
+                    <span class="char space"> </span>
+                    <span class="char highlight">s</span><span class="char highlight">o</span><span class="char highlight">u</span><span class="char highlight">l</span><span class="char highlight">.</span>
+                </span>
+            </h1>
+
+            <p class="hero-description">
+                We craft immersive digital experiences that blur the line between
+                art and technology. Every pixel, every interaction, intentional.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#showcase" class="btn-primary">
+                    <span class="btn-bg"></span>
+                    <span class="btn-text">Explore Works</span>
+                    <span class="btn-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="7" y1="17" x2="17" y2="7"/>
+                            <polyline points="7,7 17,7 17,17"/>
+                        </svg>
+                    </span>
+                </a>
+                <a href="#about" class="btn-secondary">
+                    <span class="btn-text">Our Story</span>
+                    <span class="btn-underline"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <div class="scroll-dot"></div>
+            </div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-value" data-value="150">0</span>
+                <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-value" data-value="12">0</span>
+                <span class="stat-label">Awards</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-value" data-value="99">0</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span class="marquee-item">Digital Design</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">Brand Identity</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">Web Development</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">Motion Graphics</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">3D Design</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">Digital Design</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">Brand Identity</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">Web Development</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">Motion Graphics</span>
+                <span class="marquee-dot">✦</span>
+                <span class="marquee-item">3D Design</span>
+                <span class="marquee-dot">✦</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-header">
+                <div class="section-label">
+                    <span class="label-index">01</span>
+                    <span class="label-text">About Us</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-main">
+                    <h2 class="about-title split-text">
+                        We believe in the power of thoughtful design to transform digital experiences.
+                    </h2>
+                    <div class="about-description">
+                        <p>Founded in 2019, AURA has been at the forefront of digital innovation. We combine cutting-edge technology with artistic vision to create experiences that captivate and inspire.</p>
+                        <p>Our multidisciplinary team brings together expertise in design, development, and strategy to deliver solutions that exceed expectations.</p>
+                    </div>
+                </div>
+
+                <div class="about-visual">
+                    <div class="visual-frame">
+                        <div class="frame-corner tl"></div>
+                        <div class="frame-corner tr"></div>
+                        <div class="frame-corner bl"></div>
+                        <div class="frame-corner br"></div>
+                        <div class="visual-inner">
+                            <video autoplay muted loop playsinline class="visual-video">
+                                <source src="https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-man-typing-in-a-dark-room-28000-large.mp4" type="video/mp4">
+                            </video>
+                            <div class="visual-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="visual-tag">
+                        <span class="tag-icon">✦</span>
+                        <span class="tag-text">Since 2019</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-features">
+                <div class="feature-card" data-index="01">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Innovative Design</h3>
+                    <p class="feature-text">Pushing boundaries with every project we undertake.</p>
+                </div>
+                <div class="feature-card" data-index="02">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Timeless Quality</h3>
+                    <p class="feature-text">Crafting experiences that stand the test of time.</p>
+                </div>
+                <div class="feature-card" data-index="03">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Scalable Solutions</h3>
+                    <p class="feature-text">Building for today, ready for tomorrow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase-section">
+        <div class="container">
+            <div class="showcase-header">
+                <div class="section-label">
+                    <span class="label-index">02</span>
+                    <span class="label-text">Selected Works</span>
+                </div>
+                <h2 class="showcase-title split-text">Featured Projects</h2>
+            </div>
+
+            <div class="showcase-grid">
+                <article class="project-card large">
+                    <div class="project-media">
+                        <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="meta-category">Brand Identity</span>
+                            <span class="meta-year">2024</span>
+                        </div>
+                        <h3 class="project-title">Ethereal</h3>
+                        <p class="project-desc">A complete brand transformation for a luxury wellness retreat.</p>
+                    </div>
+                    <div class="project-number">01</div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-media">
+                        <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="meta-category">Web Design</span>
+                            <span class="meta-year">2024</span>
+                        </div>
+                        <h3 class="project-title">Lumina</h3>
+                        <p class="project-desc">Digital experience for an art gallery.</p>
+                    </div>
+                    <div class="project-number">02</div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-media">
+                        <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="meta-category">Motion</span>
+                            <span class="meta-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Horizon</h3>
+                        <p class="project-desc">Brand film for a tech startup.</p>
+                    </div>
+                    <div class="project-number">03</div>
+                </article>
+
+                <article class="project-card wide">
+                    <div class="project-media">
+                        <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-meta">
+                            <span class="meta-category">E-Commerce</span>
+                            <span class="meta-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Prism</h3>
+                        <p class="project-desc">A reimagined shopping experience for a fashion brand.</p>
+                    </div>
+                    <div class="project-number">04</div>
+                </article>
+            </div>
+
+            <div class="showcase-cta">
+                <a href="#" class="view-all-link">
+                    <span class="link-text">View All Projects</span>
+                    <span class="link-count">(24)</span>
+                    <span class="link-arrow">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12,5 19,12 12,19"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="gallery-header">
+                <div class="section-label">
+                    <span class="label-index">03</span>
+                    <span class="label-text">Gallery</span>
+                </div>
+                <h2 class="gallery-title split-text">Visual Stories</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item gi-1" >
+                    <div class="gallery-media">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);">
+                            <span class="placeholder-text">01</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <span class="info-title">Abstract</span>
+                    </div>
+                </div>
+                <div class="gallery-item gi-2" >
+                    <div class="gallery-media">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <span class="placeholder-text">02</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <span class="info-title">Depth</span>
+                    </div>
+                </div>
+                <div class="gallery-item gi-3" >
+                    <div class="gallery-media">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <span class="placeholder-text">03</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <span class="info-title">Fluid</span>
+                    </div>
+                </div>
+                <div class="gallery-item gi-4" >
+                    <div class="gallery-media">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <span class="placeholder-text">04</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <span class="info-title">Motion</span>
+                    </div>
+                </div>
+                <div class="gallery-item gi-5" >
+                    <div class="gallery-media">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <span class="placeholder-text">05</span>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <span class="info-title">Light</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="testimonial-wrapper">
+                <div class="quote-decoration">
+                    <svg viewBox="0 0 100 100" fill="none">
+                        <circle cx="50" cy="50" r="49" stroke="currentColor" stroke-width="0.5" stroke-dasharray="4 4"/>
+                    </svg>
+                </div>
+                <blockquote class="testimonial-quote">
+                    <span class="quote-mark">"</span>
+                    <p class="quote-text">AURA transformed our digital presence into something truly magical. Their attention to detail and creative vision exceeded all expectations.</p>
+                </blockquote>
+                <div class="testimonial-author">
+                    <div class="author-image">
+                        <span>SK</span>
+                    </div>
+                    <div class="author-info">
+                        <span class="author-name">Sarah Kim</span>
+                        <span class="author-role">CEO, Ethereal Wellness</span>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="control-btn prev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="19" y1="12" x2="5" y2="12"/>
+                            <polyline points="12,19 5,12 12,5"/>
+                        </svg>
+                    </button>
+                    <span class="control-counter">
+                        <span class="current">01</span>
+                        <span class="divider">/</span>
+                        <span class="total">05</span>
+                    </span>
+                    <button class="control-btn next" aria-label="Next">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12,5 19,12 12,19"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="cta-bg">
+            <div class="cta-gradient"></div>
+            <div class="cta-grid-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <span class="cta-label">Let's Create Together</span>
+                <h2 class="cta-title split-text">Have a project in mind?</h2>
+                <p class="cta-description">We'd love to hear about it. Let's discuss how we can bring your vision to life.</p>
+                <div class="cta-actions">
+                    <a href="mailto:hello@aura.studio" class="cta-email">
+                        <span class="email-text">hello@aura.studio</span>
+                        <span class="email-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="7" y1="17" x2="17" y2="7"/>
+                                <polyline points="7,7 17,7 17,17"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <form class="cta-form">
+                    <div class="form-field">
+                        <input type="email" placeholder="Enter your email for updates" required>
+                        <button type="submit" class="form-submit">
+                            <span>Subscribe</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12,5 19,12 12,19"/>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span>AURA</span>
+                        <span class="logo-glow"></span>
+                    </a>
+                    <p class="footer-tagline">Where code meets soul.</p>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#showcase">Works</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Branding</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Motion</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Dribbble</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 AURA Studio. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+                <button class="back-to-top" aria-label="Back to top">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="19" x2="12" y2="5"/>
+                        <polyline points="5,12 12,5 19,12"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
